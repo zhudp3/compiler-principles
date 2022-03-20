@@ -1,0 +1,50 @@
+Hello, this is a Lexer degisned by zhudp3.
+<#include <stdio.h>,->
+<#define N 10000,->
+<int,->
+<$ID,main>
+<$operater,(>
+<$operater,)>
+<$operater,{>
+<int,->
+<$ID,i>
+<$operater,;>
+<float,->
+<$ID,j>
+<$operater,,>
+<$ID,k>
+<$operater,;>
+<$ID,i>
+<$operater,=>
+<$int,10>
+<$operater,;>
+<$ID,j>
+<$operater,=>
+<$float,1.0>
+<$operater,;>
+<$ID,k>
+<$operater,=>
+<$float,-1.2e-10>
+<$operater,;>
+<char,->
+<$ID,x>
+<$operater,=>
+<$char,'y'>
+<$operater,;>
+<char,->
+<$ID,y>
+<$operater,=>
+<$char,'x'>
+<$operater,;>
+single line comment.
+<char,->
+<$operater,*>
+<$ID,s>
+<$operater,=>
+<$string,"This is a Lexer designed by zhudp3!">
+<$operater,;>
+multiple lines comment.
+<return,->
+<$int,0>
+<$operater,;>
+<$operater,}>
